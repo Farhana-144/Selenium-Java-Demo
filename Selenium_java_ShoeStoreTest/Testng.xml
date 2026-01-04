@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Shoe Store Test">
+
+   <listeners>
+   <listener class-name="resource.Listeners"></listener>
+   </listeners>
+   
+   <test name="Dummy Test">
+   
+   <classes>
+  <!--   <class name="testCases.HeaderCountTest"></class>-->
+   <class name="testCases.JanuaryPageTest"></class>
+   </classes>
+   </test>
+   </suite>
